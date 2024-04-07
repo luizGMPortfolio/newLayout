@@ -54,6 +54,7 @@ const Home = ({ Change_page, setMenu }) => {
 
     <div className='home'>
       <div className='home-left'>
+
         <div className='hl-wellcome'>
           <Title title={'Bem-vindo à LGM!'} />
           <div>
@@ -63,6 +64,8 @@ const Home = ({ Change_page, setMenu }) => {
           </div>
         </div>
 
+        <hr />
+        
         <div className='hl-building'>
           <div className='hlb-text'>
             <h2>Veja como são desenvolvidos sites e apicativos</h2>
@@ -99,9 +102,13 @@ const Home = ({ Change_page, setMenu }) => {
       </div>
       <div className='home-right'>
 
+        <hr />
+
         <div className='hr-themes'>
           <Carousel />
         </div>
+
+        <hr />
 
         <div className='hr-contact'>
 
@@ -118,10 +125,10 @@ const Home = ({ Change_page, setMenu }) => {
             </div>
 
             <div>
-              <a 
-              onMouseMove={() => handleMoveOn_Out('insta')} 
-              onMouseOut={() => handleMoveOn_Out('')} 
-              className={`hrcc-a ${moveOn_Out === 'insta' ? 'hrcca-show' : ''}`}>
+              <a
+                onMouseMove={() => handleMoveOn_Out('insta')}
+                onMouseOut={() => handleMoveOn_Out('')}
+                className={`hrcc-a ${moveOn_Out === 'insta' ? 'hrcca-show' : ''}`}>
                 <i class="fa-brands fa-instagram fa-2xl"></i>
                 <span className={text === 'insta' ? 'hrc-text-show' : 'hrc-text-hidden'}>Visite nosso inta!</span>
               </a>

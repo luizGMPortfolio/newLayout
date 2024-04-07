@@ -34,14 +34,18 @@ menu li:hover{
 /* ----------------------------------------Querys------------------------------------------ */
 
 @media (max-width: 768px) {
+    .Container-logo{
+        width: 100%;
+    }
     .desktop{
         display: none;
     }
     .mobile{
+        z-index: 10;
+        position: fixed;
         display: flex;
-        justify-content: end;
-        align-items: center;
-        width: 70%;
-        padding-right: 20px;
+        bottom: 0;
+        right: 0;
+        
     }
 }

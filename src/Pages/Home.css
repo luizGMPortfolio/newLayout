@@ -17,6 +17,9 @@
     align-items: center;
 }
 
+.home hr{
+    display: none;
+}
 
 /* Container Wellcome*/
 .hl-wellcome {
@@ -66,9 +69,9 @@
 .hlb-icons ul {
     padding: 0;
     display: flex;
-    height: 90px;
+    height: 70px;
     width: 100%;
-    gap: 50px;
+    gap: 4%;
     list-style: none;
     border-radius: 20px;
     justify-content: center;
@@ -92,7 +95,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    width: 70px;
+    width: 50px;
     height: 80%;
     background-color: #fff;
     box-shadow: 0px 3px 8px 1px rgba(187, 187, 187, 0.75);
@@ -326,11 +329,32 @@
         width: 100%;
     }
 
+    .hl-wellcome p{
+        padding: 0 25px;
+    }
+
+    .hlb-text {
+        font-size: 12px;
+    }
+
     .hr-themes {
         height: 470px;
     }
+    .hr-themes img{
+        left: 15%;
+    }
+    .hrtc-text {
+        left: 330px;
+        height: 210px;
+        width: 220px;
+        font-size: 14px;
+    }
 
     .hr-contact{
-        height: 100px;
+        height: 150px;
+    }
+
+    .home hr{
+        display: initial;
     }
 }
