@@ -1,0 +1,59 @@
+.logo{
+    color: #fff;
+    display: flex;
+}
+.center{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.center h1{
+    font-size: 50px;
+    height: 20px;
+    font-family: 'Timmana', sans-serif;
+    
+}
+.center h2{
+    font-size: 20px;
+    margin: 0;
+    height: 50px;
+    color: #1953da;
+    display: flex;
+    justify-content: end;
+}
+.line{
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+.line div{
+    width: 120px;
+    height: 6px;
+    border-radius: 5px;
+    rotate: 120deg;
+    background-color: rgb(165, 164, 164);
+}
+.left-arrow{
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+}
+.left-arrow i{  
+    rotate: 30deg;
+    color: #339AF0;
+}
+.right-arrow{
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.right-arrow i{
+    rotate: 30deg;
+    color: #339AF0;
+}

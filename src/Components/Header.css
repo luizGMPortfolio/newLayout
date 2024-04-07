@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    font-size: 18px;
+    height: 165px;
+}
+
+.Container-logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+menu{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+menu li:hover{
+    border-bottom: 1px solid #339AF0;
+}
+.active{
+    border-bottom: 1px solid #339AF0;
+}
