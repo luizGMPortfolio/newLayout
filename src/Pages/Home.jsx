@@ -46,7 +46,6 @@ const Home = ({ Change_page, setMenu }) => {
   };
 
   useEffect(() => {
-    document.querySelector('html').style.overflowY = "hidden";
     setMenu('home')
   }, []);
 
