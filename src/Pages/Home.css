@@ -338,20 +338,27 @@
     }
 
     .hr-themes {
-        height: 470px;
+        height: 500px;
     }
     .hr-themes img{
-        left: 15%;
+        left: 16%;
     }
     .hrtc-text {
-        left: 330px;
-        height: 210px;
-        width: 220px;
+        left: 15%;
+        bottom: 130px;
+        height: 130px;
+        width: 450px;
         font-size: 14px;
     }
 
     .hr-contact{
         height: 150px;
+        margin-bottom: 80px;
+    }
+    .hrc-container div{
+        width: 100px;
+        display: flex;
+        justify-content: center;
     }
 
     .home hr{
