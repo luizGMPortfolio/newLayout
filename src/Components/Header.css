@@ -31,7 +31,9 @@ menu li:hover {
 .active {
     border-bottom: 1px solid #339AF0;
 }
-
+.header a{
+  color: #1953da;
+}
 
 
 /* ----------------------------------------Querys------------------------------------------ */

@@ -87,12 +87,12 @@ span {
 }
 
 a {
-    color: inherit;
     /* Herda a cor do texto pai */
     text-decoration: none;
+    outline: none;
     /* Remove o sublinhado */
 }
 
-*:focus {
+a:active {
     outline: none;
 }
