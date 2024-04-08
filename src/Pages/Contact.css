@@ -62,7 +62,10 @@ form{
     align-items: center;
     width: 100%;
 }
-
+form span{
+    color: #fff;
+    font-size: 13px;
+}
 
 /* ----------------------------------------Querys------------------------------------------ */
 

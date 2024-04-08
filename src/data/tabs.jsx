@@ -1,8 +1,8 @@
 
-import img from '../assets/foto5.jpg'
-import img1 from '../assets/Design2.webp'
-import img2 from '../assets/sla9.png'
-import img3 from '../assets/business-deal.svg'
+import img from '../assets/code.jpg'
+import img1 from '../assets/Design.webp'
+import img2 from '../assets/responsive.png'
+import img3 from '../assets/simple.svg'
 
 import Languages from '../Components/Languages'
 import Style from '../Components/Style'

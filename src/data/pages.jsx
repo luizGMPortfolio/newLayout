@@ -1,17 +1,17 @@
-import img from '../assets/foto5.jpg'
-import img1 from '../assets/sla9.png'
+import img1 from '../assets/garotasBrilhantes.png'
+import img from '../assets/advogados1.png'
 
 
 const pages = [
     {
         name: 'Cristiane advogados',
-        primary: '#a61717',
+        primary: '#1c1c1c',
         second: '#1720a6',
         third: '#a6a117',
         page: img
     },
     {
-        name: 'Cabeleleiro',
+        name: 'Garotas brilhantes',
         primary: '#143494',
         second: '#198fc2',
         thrid: '#110e2f',

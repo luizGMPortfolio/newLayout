@@ -1,11 +1,12 @@
 import './Contact.css'
 import Title from '../Components/Title'
 import emailjs from 'emailjs-com'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 
 const Contact = ({ setMenu }) => {
 
+  const [send, setSend] = useState('')
 
   useEffect(() => {
     document.querySelector('html').style.overflowY = "visible";
@@ -16,6 +17,7 @@ const Contact = ({ setMenu }) => {
   function sendEmail(e) {
     e.preventDefault();
     emailjs.sendForm('service_2s5pqjw', 'template_xn83v1b', e.target, 'K90Hya3YEoXoSiihk')
+    setSend('email enviado com sucesso')
     e.target.reset()
 
   }
@@ -54,27 +56,28 @@ const Contact = ({ setMenu }) => {
         <div className='entry um'>
           <div>
             <label htmlFor="Name">Name</label>
-            <input type="text" placeholder='type your name' name="from_name" />
+            <input type="text" placeholder='type your name' name="from_name" required />
           </div>
           <div>
             <label htmlFor="number">Number</label>
-            <input type="text" placeholder='type your fone number' name="phone" />
+            <input type="text" placeholder='type your fone number' name="phone" required />
           </div>
         </div>
 
         <div className='entry dois'>
           <label htmlFor="email">E-mail</label>
-          <input type="email" placeholder='type your e-mail' name="email" />
+          <input type="email" placeholder='type your e-mail' name="email" required />
         </div>
 
         <div className='entry tres'>
           <label htmlFor="text">Mensage</label>
-          <textarea name="message" id="" cols="30" rows="10" placeholder='type your message'></textarea>
+          <textarea name="message" id="" cols="30" rows="10" placeholder='type your message' required></textarea>
         </div>
 
         <div className='entry quatro'>
           <button type="submit" value="Submit">Send</button>
         </div>
+        <span>{send}</span>
       </form>
     </div>
 

@@ -4,6 +4,14 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Carousel.css'
 
+import img from '../assets/eCommerce-Development.svg'
+import img1 from '../assets/landing.svg'
+import img2 from '../assets/portifolio.svg'
+import img3 from '../assets/aplicativo.svg'
+import img4 from '../assets/blog.webp'
+import img5 from '../assets/AutomaçãoSvg.svg'
+import img6 from '../assets/Api.svg'
+
 
 const Carousel = () => {
   const settings = {
@@ -19,7 +27,7 @@ const Carousel = () => {
   return (
     <Slider {...settings}>
       <div className='slide'>
-        <img src="https://d3uom8aq23ax4d.cloudfront.net/wp-content/uploads/2020/11/eCommerce-Development.svg.gzip" alt="Imagem 1" />
+        <img src={img} alt="Imagem 1" />
         <div className='hrtc-text'>
           <h2>E-commerce</h2>
           <hr />
@@ -27,7 +35,7 @@ const Carousel = () => {
         </div>
       </div>
       <div className='slide'>
-        <img src='https://cdn.goodmanlantern.com/wp-content/uploads/2022/04/Group-6549.svg' alt="Imagem 2" />
+        <img src={img1} alt="Imagem 2" />
         <div className='hrtc-text'>
           <h2>Landing Page</h2>
           <hr />
@@ -35,7 +43,7 @@ const Carousel = () => {
         </div>
       </div>
       <div className='slide'>
-        <img src="https://www.svgrepo.com/show/429905/portfolio-my-profile-browser.svg" alt="Imagem 3" />
+        <img src={img2} alt="Imagem 3" />
         <div className='hrtc-text'>
           <h2>Portifólio</h2>
           <hr />
@@ -43,7 +51,7 @@ const Carousel = () => {
         </div>
       </div>
       <div className='slide'>
-        <img src="https://tz3.com.br/images/svg/desenvolvimento-de-apps2.svg" alt="Imagem 4" />
+        <img src={img3} alt="Imagem 4" />
         <div className='hrtc-text'>
           <h2>Aplicativos</h2>
           <hr />
@@ -51,7 +59,7 @@ const Carousel = () => {
         </div>
       </div>
       <div className='slide'>
-        <img src="https://cdni.iconscout.com/illustration/premium/thumb/blog-4489786-3757221.png?f=webp" alt="Imagem 5" />
+        <img src={img4} alt="Imagem 5" />
         <div className='hrtc-text'>
           <h2>Blogs</h2>
           <hr />
@@ -59,7 +67,7 @@ const Carousel = () => {
         </div>
       </div>
       <div className='slide'>
-        <img src="https://pluga.co/blog/wp-content/uploads/2023/09/mensagem-para-cliente-no-WhatsApp.svg" alt="Imagem 6" />
+        <img src={img5} alt="Imagem 6" />
         <div className='hrtc-text'>
           <h2>Automação</h2>
           <hr />
@@ -67,7 +75,7 @@ const Carousel = () => {
         </div>
       </div>
       <div className='slide'>
-        <img src="https://images.contentstack.io/v3/assets/blt7151619cb9560896/blteb9c2659ef47ca29/642f1f910c498f10e8dbd402/kzq5baj4do0rn3z2h-realm1.svg" alt="Imagem 7" />
+        <img src={img6} alt="Imagem 7" />
         <div className='hrtc-text'>
           <h2>Aplicações</h2>
           <hr />

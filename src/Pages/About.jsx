@@ -1,6 +1,6 @@
 import './About.css'
 
-import img from '../assets/eu.jpeg'
+import img from '../assets/perfil.jpeg'
 import Title from '../Components/Title'
 
 import { useEffect } from 'react'
