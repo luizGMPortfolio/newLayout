@@ -8,7 +8,7 @@ const Contact = ({ setMenu }) => {
 
 
   useEffect(() => {
-    document.querySelector('html').style.overflowY = "hidden";
+    document.querySelector('html').style.overflowY = "visible";
     setMenu('contact')
   }, []);
 

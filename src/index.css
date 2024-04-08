@@ -1,34 +1,42 @@
-html,body{
+html,
+body {
     margin: 0;
     padding: 0;
-	box-sizing: border-box;
-	font-family: 'kanit';
+    box-sizing: border-box;
+    font-family: 'kanit';
     overflow-y: hidden;
     overflow-x: hidden;
 
 }
-body::-webkit-scrollbar{
+
+body::-webkit-scrollbar {
     width: 5px;
 }
+
 body::-webkit-scrollbar-track {
-    background: #575656; /* Cor de fundo */
-}
-body::-webkit-scrollbar-thumb {
-    background: #b9b6b6; /* Cor do polegar */
-    border-radius: 10px;
-}
-body::-webkit-scrollbar-thumb:hover {
-    background: #b9b6b6; /* Cor do polegar ao passar o mouse sobre ele */
+    background: #575656;
+    /* Cor de fundo */
 }
 
-:link{
+body::-webkit-scrollbar-thumb {
+    background: #b9b6b6;
+    /* Cor do polegar */
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #b9b6b6;
+    /* Cor do polegar ao passar o mouse sobre ele */
+}
+
+:link {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
 
 }
 
-input{
+input {
     width: 90%;
     height: 40px;
     border-radius: 5px;
@@ -37,12 +45,12 @@ input{
 
 }
 
-textarea{
+textarea {
     width: 90%;
     padding-left: 10px;
 }
 
-button{
+button {
     width: 150px;
     height: 40px;
     border: none;
@@ -51,33 +59,40 @@ button{
     color: #fff;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     transition: 300ms;
     background-color: #339AF0;
     box-shadow: 0px 3px 8px 1px rgba(187, 187, 187, 0.75);
 }
 
-label{
+label {
     width: 90%;
     display: flex;
-    justify-content:left;
+    justify-content: left;
     color: #339AF0;
     font-size: 20px;
 }
 
-hr{
+hr {
     width: 300px;
     border: none;
     background-color: #193cda;
     height: 2px;
 }
 
-span{
+span {
     color: black;
     font-size: 11px;
 }
 
 a {
-    color: inherit; /* Herda a cor do texto pai */
-    text-decoration: none; /* Remove o sublinhado */
-  }
+    color: inherit;
+    /* Herda a cor do texto pai */
+    text-decoration: none;
+    /* Remove o sublinhado */
+}
+
+*:focus {
+    outline: none;
+}

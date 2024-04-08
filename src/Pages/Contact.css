@@ -1,6 +1,6 @@
 .contact{
     width: 100%;
-    height: 620px;
+    min-height: 600px;
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -61,4 +61,21 @@ form{
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+
+/* ----------------------------------------Querys------------------------------------------ */
+
+@media (max-width: 768px) {
+    .contact{
+        flex-direction: column;
+    }
+    .discription{
+        width: 90%;
+    }
+    form{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
 }

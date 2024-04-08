@@ -12,10 +12,17 @@ const building = ({ change_page, setMenu}) => {
 
   const [Tabs, setTabs] = useState(tabs[0])
   const [buttons, setButtons] = useState('');
+  const [larguraDaTela, setLarguraDaTela] = useState(window.innerWidth);
 
   useEffect(() => {
 
-    document.querySelector('html').style.overflowY = "hidden";
+
+    if (larguraDaTela < 768) {
+      document.querySelector('html').style.overflowY = "visible";
+    }
+    else{
+      document.querySelector('html').style.overflowY = "hidden";
+    }
     setMenu('building')
 
     if (change_page != '') {
@@ -25,9 +32,11 @@ const building = ({ change_page, setMenu}) => {
     else{
       change_button(0)
     }
-  }, []);
+  }, [larguraDaTela]);
 
-
+  function handleResize(){
+    
+  }
   const change_button = (num) => {
     setButtons(num);
     setTabs(tabs[num]);

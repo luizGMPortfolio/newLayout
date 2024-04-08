@@ -8,7 +8,7 @@ import { useEffect } from 'react'
 const About = ({ setMenu }) => {
 
   useEffect(() => {
-    document.querySelector('html').style.overflowY = "hidden";
+    document.querySelector('html').style.overflowY = "visible";
     setMenu('about')
   }, []);
 

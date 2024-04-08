@@ -1,9 +1,6 @@
 .build {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 620px;
+    min-height: 605px;
 }
 
 
@@ -21,6 +18,7 @@
 
 
 .left {
+    display: flex;
     z-index: 1;
     width: 50%;
     height: 100%;
@@ -43,7 +41,7 @@
 }
 
 .explain div {
-    width: 70%;
+    width: 300px;
     height: 100px;
     margin-top: 10px;
     display: flex;
@@ -73,7 +71,7 @@
 
 .bc-mensages {
     z-index: 4;
-    height: 120px;
+    height: 100px;
     display: flex;
     flex-direction: column;
 
@@ -114,6 +112,7 @@
     justify-content: end;
     align-items: center;
     color: black;
+    padding-bottom: 60px;
 }
 
 .right h2 {
@@ -495,4 +494,56 @@
 
 .Cliked:hover {
     background-color: #fff;
+}
+
+
+
+
+/* ----------------------------------------Querys------------------------------------------ */
+
+@media (max-width: 768px) {
+    .build{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container{
+        display: none;
+        width: 700px;
+        height: 700px;
+    }
+    .left{
+        width: 100%;
+    }
+    .bottom{
+        z-index: 0;
+        bottom: 120px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: initial;
+    }
+    .bottom img{
+        position: absolute;
+        width: 350px;
+        }
+    .b-center{
+        width: 100%;
+        background-color: #fff;
+        z-index: 2;
+        height: 60px;
+    }
+    .bc-mensages{
+        display: none;
+    }
+    .buttons{
+        transform: rotate(0deg);
+    }
+    .right{
+        background-color: #fff;
+        width: 100%;
+    }
+
 }
