@@ -344,11 +344,15 @@
         left: 20%;
     }
     .hrtc-text {
-        left: 19%;
+        left: 20%;
         bottom: 90px;
         height: 140px;
         width: 400px;
         font-size: 14px;
+    }
+    .show{
+        font-size: 15px;
+        width: 125px;
     }
 
     .hr-contact{

@@ -6,10 +6,8 @@ import { useState, useEffect } from 'react';
 
 const Header = ({ menu, setMenu }) => {
 
+    const [mobileActive, setMobileActive] = useState('')
 
-    useEffect(() => {
-        console.log('menu' + menu)
-    }, []);
 
     return (
         <div className='header'>
@@ -25,27 +23,37 @@ const Header = ({ menu, setMenu }) => {
             </menu>
             <menu className='mobile'>
 
-                < div className='m-contact' >
-                    <i class="fa-solid fa-envelope"></i>
-                </div >
-
-                <div className='m-building'>
-                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                <div class="wobble"></div>
+                <div class="wobble"></div>
+                <div id="toggle-nav" class="toggle" onClick={() => setMobileActive(mobileActive === 'active' ? '' : 'active')}>
+                    <i class={mobileActive === 'active' ? 'fa-solid fa-xmark fa-xl' : 'fa-solid fa-bars fa-xl'}></i>
                 </div>
 
-                <div className='m-themes'>
-                    <i class="fa-solid fa-layer-group"></i>
-                </div>
+                <nav>
+                    <Link to='/Building' className={`nav-item ${mobileActive === 'active' ? 'slide-out' : ''}`}>
+                        <div ><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    </Link>
+                    <Link to='/Contact' className={`nav-item ${mobileActive === 'active' ? 'slide-out' : ''}`}>
+                        <div><i class="fa-solid fa-envelope"></i></div>
+                    </Link>
+                    <Link to='/Themes' className={`nav-item ${mobileActive === 'active' ? 'slide-out' : ''}`}>
+                        <div ><i class="fa-solid fa-layer-group"></i></div>
+                    </Link>
+                    <Link to='/About' className={`nav-item ${mobileActive === 'active' ? 'slide-out' : ''}`}>
+                        <div ><i class="fa-solid fa-address-card"></i></div>
+                    </Link>
+                    <Link to='/' className={`nav-item ${mobileActive === 'active' ? 'slide-out' : ''}`}>
+                        <div ><i class="fa-solid fa-house"></i></div>
+                    </Link>
 
-                <div className='m-container'>
-                    <div className='m-home'>
-                        <i class="fa-solid fa-house"></i>
-                    </div>
-                    <div className='m-menu'>
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
+                </nav>
 
-                </div>
+
+
+
+
+
+
 
             </menu>
 
