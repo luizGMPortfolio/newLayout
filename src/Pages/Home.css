@@ -341,19 +341,19 @@
         height: 500px;
     }
     .hr-themes img{
-        left: 16%;
+        left: 20%;
     }
     .hrtc-text {
-        left: 15%;
-        bottom: 130px;
-        height: 130px;
+        left: 19%;
+        bottom: 90px;
+        height: 140px;
         width: 400px;
         font-size: 14px;
     }
 
     .hr-contact{
         height: 150px;
-        margin-bottom: 80px;
+        margin-bottom: 50px;
     }
     .hrc-container div{
         width: 100px;

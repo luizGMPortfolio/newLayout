@@ -1,17 +1,17 @@
-.header{
+.header {
     display: flex;
     font-size: 18px;
     height: 165px;
 }
 
-.Container-logo{
+.Container-logo {
     width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.desktop{
+.desktop {
     display: flex;
     gap: 30px;
     list-style: none;
@@ -19,13 +19,16 @@
     align-items: center;
     width: 70%;
 }
-.mobile{
+
+.mobile {
     display: none;
 }
-menu li:hover{
+
+menu li:hover {
     border-bottom: 1px solid #339AF0;
 }
-.active{
+
+.active {
     border-bottom: 1px solid #339AF0;
 }
 
@@ -34,26 +37,97 @@ menu li:hover{
 /* ----------------------------------------Querys------------------------------------------ */
 
 @media (max-width: 768px) {
-    .Container-logo{
+    .Container-logo {
         width: 100%;
     }
-    .desktop{
+
+    .desktop {
         display: none;
     }
-    .mobile{
+
+    .mobile {
         z-index: 10;
         position: fixed;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 50px;
-        height: 50px;
-        bottom: 50px;
-        right: 50px;
-        background-color: #339AF0;
+        width: 150px;
+        height: 170px;
+        bottom: 10px;
+        right: 20px;
+
         padding: 0;
         margin: 0;
-        border-radius: 50%;
+        gap: 5px;
 
+    }
+    .mobile i{
+        background-color: #339AF0;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    .m-container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        align-items: center;
+    }
+
+    .m-home,
+    .m-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 40px;
+    }
+    .m-menu{
+        position: absolute;
+        right: 0;
+        bottom: 50px;
+    }
+    .m-home{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .m-contact {
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        align-items: center;
+        position: absolute;
+        top: 30px;
+        right: 18px;
+
+    }
+
+    .m-building {
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        align-items: center;
+        position: absolute;
+        bottom: 25px;
+        left: 45px;
+    }
+
+    .m-themes {
+        display: flex;
+        justify-content: center;
+        height: 40px;
+        align-items: center;
+        position: absolute;
+        left: 45px;
+        top: 55px;
     }
 }

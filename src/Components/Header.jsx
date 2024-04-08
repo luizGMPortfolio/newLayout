@@ -24,7 +24,29 @@ const Header = ({ menu, setMenu }) => {
                 <Link to='/Contact' onClick={() => setMenu('contact')} className={menu === 'contact' ? 'active' : ''}><li>Contact Us</li></Link>
             </menu>
             <menu className='mobile'>
-                <i class="fa-solid fa-bars fa-lg"></i>
+
+                < div className='m-contact' >
+                    <i class="fa-solid fa-envelope"></i>
+                </div >
+
+                <div className='m-building'>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+
+                <div className='m-themes'>
+                    <i class="fa-solid fa-layer-group"></i>
+                </div>
+
+                <div className='m-container'>
+                    <div className='m-home'>
+                        <i class="fa-solid fa-house"></i>
+                    </div>
+                    <div className='m-menu'>
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                </div>
+
             </menu>
 
         </div>
