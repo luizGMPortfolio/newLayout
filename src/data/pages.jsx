@@ -3,6 +3,9 @@ import img from '../assets/advogados1.png'
 import img2 from '../assets/themes1.png'
 import img3 from '../assets/themes2.png'
 import img4 from '../assets/themes3.png'
+import img5 from '../assets/themes4.png'
+import img6 from '../assets/themes5.png'
+import img7 from '../assets/themes6.png'
 
 
 const pages = [
@@ -45,6 +48,30 @@ const pages = [
         third: '#E2C549',
         page: img4,
         link: 'https://landing-page-exemple3.vercel.app'
+    },
+    {
+        name: 'weddingAgencyThemes',
+        primary: '#FFFFFF',
+        second: '#567C6D',
+        third: '#555555',
+        page: img5,
+        link: 'https://landing-page-exemple4.vercel.app'
+    },
+    {
+        name: 'AppMarketingTheme',
+        primary: '#FFFFFF',
+        second: '#37784E',
+        third: '#000000',
+        page: img6,
+        link: 'https://landing-page-exemple5.vercel.app/'
+    },
+    {
+        name: 'GymThemes',
+        primary: '#FFFFFF',
+        second: '#B3B9DF',
+        third: '#000000',
+        page: img7,
+        link: 'https://landing-page-exemple5.vercel.app/'
     }
 ]
 
