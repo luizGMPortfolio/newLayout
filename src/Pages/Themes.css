@@ -71,10 +71,30 @@
 .page-name{
     display: flex;
     justify-content: center;
+    align-items: center;
     color: #1953da;
 }
-
-
+.page-name h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.page-visit{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    color: #339AF0;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px 1px rgba(39, 153, 219, 0.75);
+}
+.page-visit i{
+    color: #339AF0;
+}
 /* ----------------------------------------Querys------------------------------------------ */
 
 @media (max-width: 768px) {

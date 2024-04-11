@@ -249,6 +249,9 @@
     border-right: 2px solid #339AF0;
     transition: 1s;
 }
+.hrcc-a i {
+    color: #1953da;
+}
 
 .hrcca-show {
     animation: moveOn 1s;

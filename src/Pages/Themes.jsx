@@ -35,7 +35,7 @@ const Themes = ({ setMenu }) => {
               </div>
 
               <div className='page-name'>
-                <h2>{req.name}</h2>
+                <h2>{req.name} <a className='page-visit' href={req.link} target="_blank"><i class="fa-solid fa-arrow-right fa-xs"></i></a></h2>
               </div>
 
             </div>
