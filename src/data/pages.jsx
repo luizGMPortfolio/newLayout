@@ -8,25 +8,25 @@ import img4 from '../assets/themes3.png'
 const pages = [
     {
         name: 'Cristiane advogados',
-        primary: '#1c1c1c',
-        second: '#1720a6',
-        third: '#a6a117',
+        primary: '#212529',
+        second: '#191919',
+        third: '#E1AD3D',
         page: img,
         link: 'https://html-site-advogados.vercel.app'
     },
     {
         name: 'Garotas brilhantes',
-        primary: '#143494',
-        second: '#198fc2',
-        thrid: '#110e2f',
+        primary: '#FDE3E3',
+        second: '#F15676',
+        third: '#A6043B',
         page: img1,
         link: 'https://garotas-brilhantes.vercel.app'
     },
     {
         name: 'MarketingTheme',
-        primary: '#FF4F09',
-        second: '#121212',
-        thrid: '#E9E9E9',
+        primary: '#F0F0F0',
+        second: '#FCEDD8',
+        third: '#FE5C36',
         page: img2,
         link: 'https://landing-page-example1.vercel.app'
     },

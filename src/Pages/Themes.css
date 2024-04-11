@@ -56,7 +56,6 @@
 
 }
 .colors{
-
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -66,7 +65,7 @@
     width: 25px;
     height: 25px;
     border-radius: 4px;
-    background-color: brown;
+    border: 1px solid #797979;
 }
 .page-name{
     display: flex;
