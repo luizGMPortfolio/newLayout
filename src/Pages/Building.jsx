@@ -34,9 +34,7 @@ const building = ({ change_page, setMenu}) => {
     }
   }, [larguraDaTela]);
 
-  function handleResize(){
-    
-  }
+
   const change_button = (num) => {
     setButtons(num);
     setTabs(tabs[num]);
