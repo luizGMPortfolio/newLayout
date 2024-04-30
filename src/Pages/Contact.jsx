@@ -47,7 +47,7 @@ const Contact = ({ setMenu }) => {
         </p>
         <p>
           <i class="fa-brands fa-instagram fa-2xl"></i>
-          @LGMdeveloper
+          www.instagram.com/lgmdeveloper
         </p>
       </div>
 

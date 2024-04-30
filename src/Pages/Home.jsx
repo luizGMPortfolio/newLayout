@@ -65,7 +65,7 @@ const Home = ({ Change_page, setMenu }) => {
         </div>
 
         <hr />
-        
+
         <div className='hl-building'>
           <div className='hlb-text'>
             <h2>Veja como são desenvolvidos sites e apicativos</h2>
@@ -115,7 +115,7 @@ const Home = ({ Change_page, setMenu }) => {
           <div className='hrc-container'>
             <div>
               <a
-                href="https://wa.me/5196388081"
+                href="https://wa.me/5196388081" target="_blank"
                 onMouseMove={() => handleMoveOn_Out('whats')}
                 onMouseOut={() => handleMoveOn_Out('')}
                 className={`hrcc-a ${moveOn_Out === 'whats' ? 'hrcca-show' : ''}`}>
@@ -126,6 +126,7 @@ const Home = ({ Change_page, setMenu }) => {
 
             <div>
               <a
+                href='https://www.instagram.com/lgmdeveloper' target="_blank"
                 onMouseMove={() => handleMoveOn_Out('insta')}
                 onMouseOut={() => handleMoveOn_Out('')}
                 className={`hrcc-a ${moveOn_Out === 'insta' ? 'hrcca-show' : ''}`}>

@@ -1,6 +1,6 @@
 .build {
     display: flex;
-    min-height: 605px;
+    height: 605px;
 }
 
 
@@ -315,7 +315,7 @@
     justify-content: center;
     align-items: center;
     width: 130px;
-    height: 35px;
+    height: 30px;
     border-radius: 5px;
     font-weight: bold;
     font-size: 16px;
@@ -507,6 +507,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        min-height: 605px;
 
     }
     .container{
