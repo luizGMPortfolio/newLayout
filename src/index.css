@@ -4,9 +4,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'kanit';
-    overflow-y: hidden;
+    overflow-y: visible;
     overflow-x: hidden;
-
 }
 
 body::-webkit-scrollbar {

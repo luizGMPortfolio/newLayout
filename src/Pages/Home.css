@@ -330,7 +330,9 @@
     .home-right {
         width: 100%;
     }
-
+    .hl-wellcome{
+        height: auto;
+    }
     .hl-wellcome p{
         padding: 0 25px;
     }

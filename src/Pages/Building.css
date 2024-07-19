@@ -503,7 +503,6 @@
     .build{
         flex-direction: column;
         display: flex;
-        justify-content: center;
         align-items: center;
         min-height: 605px;
 
@@ -544,13 +543,12 @@
         background-color: #fff;
         width: 100%;
     }
-
-}
-
-
-
-@media (max-width: 1399px) {
-    .buttons {
-        height: 31%;
+    .buttons{
+        height: auto;
     }
+
 }
+
+
+
+
